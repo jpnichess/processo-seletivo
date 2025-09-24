@@ -1,7 +1,9 @@
 import { useCarousel } from "../../hooks/useCarousel";
+
 import banner_1 from "../../assets/Banners/main_banner_1.png";
 import banner_2 from "../../assets/Banners/main_banner_2.png";
 import banner_3 from "../../assets/Banners/main_banner_3.png";
+
 import "./banners.scss";
 
 function Banners() {

@@ -1,14 +1,17 @@
+@use "../../styles/variables" as vars;
+
 .categories-wrapper {
   position: relative;
-  width: 100%;
+  width: vars.$w-full;
   overflow: hidden;
-  padding-left: 1rem;
+  padding-left: vars.$margin-medium;
   box-sizing: border-box;
-  margin-top: 1rem;
+  margin-top: vars.$margin-medium;
+
   h1 {
     font-weight: 400;
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: vars.$margin-medium;
   }
 }
 
@@ -21,7 +24,7 @@
   -ms-overflow-style: none;
 
   padding-right: 0;
-  scroll-padding-left: 1rem;
+  scroll-padding-left: vars.$margin-medium;
 }
 
 #categories-container::-webkit-scrollbar {
@@ -36,8 +39,8 @@
   width: 150px;
 
   img {
-    width: 135px;
-    height: 190px;
+    width: vars.$category-img-width;
+    height: vars.$category-img-height;
     object-fit: cover;
     border-radius: 6px;
     cursor: pointer;
@@ -52,18 +55,18 @@
   p {
     font-weight: 300;
     font-size: 0.9rem;
-    margin-top: 0.4rem;
+    margin-top: vars.$margin-small;
     margin-bottom: 2.8rem;
   }
 }
 
 .static_banners {
-    
   .small_banner {
-    margin-bottom: 0.3rem;
+    margin-bottom: vars.$margin-small;
   }
+
   img {
-    width: 100%;
+    width: vars.$w-full;
     height: auto;
   }
 }

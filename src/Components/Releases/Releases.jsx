@@ -1,6 +1,6 @@
 import "./releases.scss";
 import { useEffect, useState } from "react";
-import getProducts from "../../hooks/utils.js";
+import getProducts from "../../Utils/utils.js";
 import { useCarousel } from "../../hooks/useCarousel.js";
 
 import icon_add from "../../assets/Icons/BlackIcons/icon_add.png";

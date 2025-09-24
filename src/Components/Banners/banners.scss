@@ -12,7 +12,7 @@
   overflow-x: scroll;
   scroll-behavior: smooth;
   scrollbar-width: none;
-  -ms-overflow-style: none; 
+  -ms-overflow-style: none;
 }
 
 #banners-container img {
@@ -26,9 +26,9 @@
   display: flex;
   justify-content: vars.$justify-between;
   align-items: vars.$items-end;
-  padding: 1rem;
+  padding: vars.$margin-medium;
   position: absolute;
-  bottom: 1rem;
+  bottom: vars.$margin-medium;
   left: 0;
   width: vars.$w-full;
   box-sizing: border-box;
@@ -48,14 +48,14 @@
 
 .indicators {
   display: flex;
-  gap: 6px;
-  margin-right: 1rem;
+  gap: vars.$margin-small;
+  margin-right: vars.$margin-medium;
 }
 
 .dot {
-  width: 6px;
-  height: 6px;
-  background: #8a8a8a;
+  width: vars.$dot-size;
+  height: vars.$dot-size;
+  background: vars.$gray;
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.3s;

@@ -12,26 +12,26 @@
     font-size: 1.1rem;
     font-weight: 400;
     margin-bottom: 0;
-    margin-top: 1.8rem;
-    margin-left: 1.25rem;
+    margin-top: vars.$margin-xlarge;
+    margin-left: vars.$margin-large;
   }
 
   .small_text {
     font-size: 0.8rem;
-    margin-bottom: 1rem;
-    color: #8a8a8a;
-    margin-top: 0.2rem;
-    margin-left: 1.25rem;
+    margin-bottom: vars.$margin-medium;
+    color: vars.$gray;
+    margin-top: vars.$margin-small;
+    margin-left: vars.$margin-large;
     font-style: italic;
   }
 }
 
 .cards_container {
-  margin-top: 1rem;
+  margin-top: vars.$margin-medium;
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  padding-bottom: 1rem;
+  padding-bottom: vars.$margin-medium;
 
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -46,7 +46,6 @@
   width: 100%;
   overflow: hidden;
   scroll-snap-align: start;
-  cursor: pointer;
   transition: transform 0.3s;
 
   .cards_image {
@@ -68,48 +67,48 @@
       font-size: 1.1rem;
       font-weight: 400;
       margin-bottom: 0.6rem;
-      margin-left: 1.25rem;
-      margin-right: 1.25rem;
+      margin-left: vars.$margin-large;
+      margin-right: vars.$margin-large;
       text-transform: uppercase;
     }
 
     .description {
       font-size: 0.8rem;
-      margin-bottom: 1rem;
-      color: #8a8a8a;
-      margin-top: 0.2rem;
-      margin-left: 1.25rem;
-      margin-right: 1.25rem;
+      margin-bottom: vars.$margin-medium;
+      color: vars.$gray;
+      margin-top: vars.$margin-small;
+      margin-left: vars.$margin-large;
+      margin-right: vars.$margin-large;
     }
+
     .smaller_text {
-        font-size: 0.8rem;
-        margin-left: 1.25rem;
-        color: black;
-        font-weight: 200;
-      }
+      font-size: 0.8rem;
+      margin-left: vars.$margin-large;
+      color: vars.$black;
+      font-weight: 200;
+      cursor: pointer;
+    }
   }
 }
 
 .cards_indicators {
   display: flex;
-  gap: 6px;
+  gap: vars.$margin-small;
   align-items: center;
   justify-content: end;
-  margin-right: 1.25rem;
+  margin-right: vars.$margin-large;
   margin-bottom: 2rem;
 }
 
 .card_dot {
-  width: 6px;
-  height: 6px;
-  background: #7d7d7d;
+  width: vars.$dot-size;
+  height: vars.$dot-size;
+  background: vars.$gray-dark;
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.3s;
-  
 }
 
 .card_dot.active {
-  background: #1d1d1d;
+  background: vars.$black;
 }
-

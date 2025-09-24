@@ -1,5 +1,5 @@
 import "./cards.scss";
-import getCards from "../../hooks/cards.js";
+import getCards from "../../Utils/cards.js";
 import { useCarousel } from "../../hooks/useCarousel.js";
 import { useState, useEffect } from "react";
 

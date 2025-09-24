@@ -4,14 +4,14 @@
   position: relative;
   width: vars.$w-full;
   overflow: hidden;
-  padding-left: 0.5rem;
+  padding-left: vars.$margin-small;
   box-sizing: border-box;
   margin-top: 0.7rem;
 
   h1 {
     font-weight: 400;
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: vars.$margin-medium;
   }
 }
 
@@ -23,26 +23,27 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
   padding-right: 0;
-  scroll-padding-left: 1rem;
+  scroll-padding-left: vars.$margin-medium;
 
   &::-webkit-scrollbar {
     display: none;
   }
 }
+
 .products_item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   flex: 0 0 auto;
-  width: 250px;
+  width: vars.$card-width;
   position: relative;
 
   .image_wrapper {
     position: relative;
 
     img {
-      width: 220px;
-      height: 220px;
+      width: vars.$product-img-size;
+      height: vars.$product-img-size;
       background-color: #f7f7f7;
       object-fit: cover;
     }
@@ -52,7 +53,7 @@
       position: absolute;
       width: 24px;
       height: 24px;
-      background-color: #fff;
+      background-color: vars.$white;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -60,61 +61,61 @@
     }
 
     .icon_heart_wrapper {
-      top: 8px;
-      right: 8px;
+      top: vars.$margin-small;
+      right: vars.$margin-small;
     }
 
     .icon_add_wrapper {
-      bottom: 8px;
-      right: 8px;
+      bottom: vars.$margin-small;
+      right: vars.$margin-small;
     }
 
     .icon_heart {
       width: 12px;
       height: 12px;
-      background-color: white;
+      background-color: vars.$white;
     }
 
     .icon_add {
       width: 24px;
       height: 24px;
-      background-color: white;
+      background-color: vars.$white;
     }
 
     .discount_badge {
       position: absolute;
-      bottom: 8px;
-      left: 8px;
-      color: #b11b26;
+      bottom: vars.$margin-small;
+      left: vars.$margin-small;
+      color: vars.$red;
       font-size: 0.8rem;
       font-weight: 600;
-      padding: 2px 6px;
-      border-radius: 4px;
+      padding: 2px;
     }
   }
 
   .name {
     font-weight: 300;
     font-size: 0.9rem;
-    margin-top: 0.4rem;
-    color: #000;
+    margin-top: vars.$margin-small;
+    color: vars.$black;
   }
 
   .discount {
     display: flex;
-    gap: 0.5rem;
+    gap: vars.$margin-small;
     align-items: baseline;
+    margin-top: 0;
 
     .old_price {
       font-size: 0.8rem;
-      color: gray;
+      color: vars.$gray;
       text-decoration: line-through;
     }
 
     .new_price {
       font-size: 0.9rem;
       font-weight: 400;
-      color: #000;
+      color: vars.$black;
     }
   }
 }

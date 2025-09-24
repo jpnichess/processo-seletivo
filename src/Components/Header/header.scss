@@ -6,19 +6,13 @@ header {
   top: 0;
   left: 0;
   width: vars.$w-full;
-  height: 3rem;
+  height: vars.$header-height;
   z-index: 10;
   background-color: transparent;
   transition: background-color 0.3s ease;
 
   &.scroll {
     background-color: vars.$white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 3rem;
-    z-index: 10;
-    transition: background-color 0.3s ease;
   }
 
   .header-content {
@@ -29,11 +23,11 @@ header {
     display: flex;
     justify-content: vars.$justify-between;
     align-items: vars.$items-center;
-    padding: 0 1rem;
+    padding: 0 vars.$margin-medium;
   }
 
   img {
-    padding: 0.5rem;
+    padding: vars.$margin-small;
     transition: filter 0.3s ease;
   }
 }
@@ -50,10 +44,11 @@ header {
   cursor: pointer;
   font-size: large;
 }
+
 .bag_btn {
   position: relative;
   border: none;
-  margin-right: 1rem;
+  margin-right: vars.$margin-medium;
   background: transparent;
   cursor: pointer;
   padding: 0;
@@ -61,7 +56,7 @@ header {
   align-items: center;
 
   img {
-    padding: 0.5rem;
+    padding: vars.$margin-small;
     height: auto;
   }
 
@@ -69,16 +64,14 @@ header {
     position: absolute;
     top: 50%;
     left: 80%;
-    margin-left: 4px;
+    margin-left: vars.$margin-small;
     transform: translateY(-50%);
-    color: white;
+    color: vars.$white;
     font-size: 0.7rem;
     font-weight: 300;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 10;
-
-    
   }
 }
