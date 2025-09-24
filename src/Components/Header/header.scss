@@ -1,0 +1,84 @@
+@use "../../styles/variables" as vars;
+@use "./menu.scss";
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: vars.$w-full;
+  height: 3rem;
+  z-index: 10;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+
+  &.scroll {
+    background-color: vars.$white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3rem;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+  }
+
+  .header-content {
+    max-width: 414px;
+    min-width: 393px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: vars.$justify-between;
+    align-items: vars.$items-center;
+    padding: 0 1rem;
+  }
+
+  img {
+    padding: 0.5rem;
+    transition: filter 0.3s ease;
+  }
+}
+
+.btn_default {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu_button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  font-size: large;
+}
+.bag_btn {
+  position: relative;
+  border: none;
+  margin-right: 1rem;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+
+  img {
+    padding: 0.5rem;
+    height: auto;
+  }
+
+  .cart_count {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    margin-left: 4px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+    
+  }
+}

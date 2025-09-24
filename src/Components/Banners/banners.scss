@@ -1,0 +1,66 @@
+@use "../../styles/variables" as vars;
+
+.banners-wrapper {
+  position: relative;
+  width: vars.$w-full;
+  overflow: hidden;
+}
+
+#banners-container {
+  display: flex;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
+
+#banners-container img {
+  flex: 0 0 vars.$w-full;
+  width: vars.$w-full;
+  object-fit: cover;
+  scroll-snap-align: start;
+}
+
+.bottom_banner {
+  display: flex;
+  justify-content: vars.$justify-between;
+  align-items: vars.$items-end;
+  padding: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  width: vars.$w-full;
+  box-sizing: border-box;
+}
+
+#banner_button {
+  background-color: rgba(149, 78, 73, 0.7);
+  color: vars.$white;
+  border-color: vars.$white;
+  width: 150px;
+  height: 43px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: background 0.3s;
+}
+
+.indicators {
+  display: flex;
+  gap: 6px;
+  margin-right: 1rem;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #8a8a8a;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dot.active {
+  background: vars.$white;
+}
