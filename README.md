@@ -21,7 +21,8 @@ Landing page desenvolvida em **React JS** com **SCSS** para estilização.
 ---
 
 ## Resultado 
-**[Acesse o projeto no Vercel](https://processo-seletivo-red.vercel.app/)** 
+**[Acesse o projeto no Vercel](https://processo-seletivo-red.vercel.app/)**
+com seu smartphone
 --
 
 ou
