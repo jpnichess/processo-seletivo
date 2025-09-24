@@ -1,6 +1,6 @@
 # Processo Seletivo Wecode 
 
-Projeto para recriação de uma página **mobile** baseada em design fornecido no Figma.
+Projeto para recriação de uma página **mobile** baseada em design fornecido no Figma através o [link](https://www.figma.com/design/lAAailSNvI7cZQAllaYOgh/-Wecode--Vaga-Est%C3%A1gio-Desenvolvedor?node-id=0-1&p=f&t=T0FVwBVC99PNxQYw-0).
 Landing page desenvolvida em **React JS** com **SCSS** para estilização.
 
 ---
