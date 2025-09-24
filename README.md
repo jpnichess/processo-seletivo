@@ -15,7 +15,7 @@ Landing page desenvolvida em **React JS** com **SCSS** para estilização.
 ---
 
 ## Tecnologias Utilizadas
-- **React JS** no ambiente de desenvolvimento do Vite, **SCSS**, **JavaScript**
+- **React JS** no ambiente de desenvolvimento do **Vite**, **SCSS**, **JavaScript**
 - **Vercel** para hospedagem do projeto
 
 ---
