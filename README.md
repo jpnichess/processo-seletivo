@@ -21,8 +21,11 @@ Landing page desenvolvida em **React JS** com **SCSS** para estilização.
 ---
 
 ## Resultado 
-**[Acesse o projeto no Vercel](https://processo-seletivo-red.vercel.app/)** ou 
+**[Acesse o projeto no Vercel](https://processo-seletivo-red.vercel.app/)** 
 --
+
+ou
+
 git clone https://github.com/jpnichess/processo-seletivo.git
 
 
