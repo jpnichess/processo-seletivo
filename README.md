@@ -1,12 +1,30 @@
-# React + Vite
+# Processo Seletivo Wecode 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto para recriação de uma página **mobile** baseada em design fornecido no Figma.
+Landing page desenvolvida em **React JS** com **SCSS** para estilização.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Desenvolvimento
+- **Header:** fixo, responsivo, com botão de menu e carrinho.
+- **Sidebar:** menu lateral com categorias e subcategorias.
+- **Banner (Slider):** scroll horizontal com indicadores.
+- **Categorias e Produtos:** scroll horizontal; cards com imagens, nomes, preços e badges de desconto.
+- **Cards adicionais e Banners:** estilizados com SCSS e scroll horizontal.
+  
+---
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
+- **React JS** no ambiente de desenvolvimento do Vite, **SCSS**, **JavaScript**
+- **Vercel** para hospedagem do projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Resultado 
+**[Acesse o projeto no Vercel](https://processo-seletivo-red.vercel.app/)** ou 
+
+git clone https://github.com/jpnichess/processo-seletivo.git
+cd processo-seletivo/
+npm install 
+npm run dev
+
