@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido como parte de um **processo seletivo**, com o objetivo de recriar uma página **mobile** a partir de um design fornecido no [Figma](https://www.figma.com/design/lAAailSNvI7cZQAllaYOgh/-Wecode--Vaga-Est%C3%A1gio-Desenvolvedor?node-id=0-1&p=f&t=T0FVwBVC99PNxQYw-0).  
 
-A landing page foi construída utilizando **React JS** e **SCSS**, priorizando a fidelidade ao layout proposto.  
+A landing page foi construída utilizando **React JS** e **SCSS**, priorizando a fidelidade ao layout proposto, ao qual consegui a aprovação.  
 
 ---
 
